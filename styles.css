@@ -1,1 +1,133 @@
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #1a1a2e;
+    color: #e0e0e0;
+}
+
+.navbar {
+    background-color: #16213e !important;
+}
+.navbar-brand, .nav-link {
+    color: #6fbdcb !important;
+    transition: color 0.3s;
+}
+.navbar-brand:hover, .nav-link:hover {
+    color: #488be9 !important;
+}
+
+.sidebar {
+    background-color: #d8ab6f;
+    color: black;
+    padding: 15px;
+    border-right: 3px solid #6fbdcb;
+    transition: border-right 0.2s;
+}
+.sidebar:hover {
+    border-right: 3px solid #488be9;
+}
+
+/* Progress Bars Animation */
+.progress {
+    background-color: #223978;
+    border-radius: 10px;
+}
+.progress-bar {
+    transition: width 1s ease-in-out;
+    font-weight: bold;
+}
+
+/* Project Cards */
+.project-card {
+    transition: transform 0.3s;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color: white;
+    border: 2px solid #6fbdcb;
+}
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+/* Contact Form */
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: #0f3460;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #488be9;
+}
+.form-label {
+    color: white;
+}
+.form-control {
+    background-color: white;
+    border: 1px solid #6fbdcb;
+    color: rgb(0, 0, 0);
+}
+.form-control:focus {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-color: #6fbdcb;
+}
+
+.btn-primary {
+    background-color: #6fbdcb;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #6fbdcb;
+    transition: background-color 0.3s ease;
+}
+
+/* Custom Button Colors */
+.btn-github {
+    margin-top: 17px;
+    background-color: purple;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.btn-github:hover {
+    background-color: #6a0dad;
+    color: white;
+}
+
+.btn-linkedin {
+    margin-top: 10px;
+    background-color: rgb(76, 187, 231);
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.btn-linkedin:hover {
+    background-color: #051e82;
+    color: white;
+}
+.text-center
+{
+    margin-bottom: 20px;
+}
+/* Profile Image in Home Section */
+#home img {
+    display: block;
+    margin: 0 auto 15px; /* Centers the image and adds margin below */
+    width: 150px; /* Adjust size as needed */
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #6fbdcb;
+    transition: transform 0.3s, border 0.2s;
+}
+
+#home img:hover {
+    transform: scale(1.05);
+    border: 4px solid #488be9;
+}
+
+
+@media (max-width: 768px) {
+    .sidebar {
+        text-align: center;
+    }
+}
  
