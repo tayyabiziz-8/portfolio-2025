@@ -46,6 +46,7 @@ body {
 }
 .project-card:hover {
     transform: scale(1.05);
+    border: 2px solid #488be9;
 }
 
 /* Contact Form */
@@ -76,7 +77,7 @@ form {
     border: none;
 }
 .btn-primary:hover {
-    background-color: #6fbdcb;
+    background-color: #488be9;
     transition: background-color 0.3s ease;
 }
 
