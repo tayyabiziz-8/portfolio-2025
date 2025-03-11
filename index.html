@@ -6,20 +6,25 @@
     <title>Portfolio Website</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container">
-            <a class="navbar-brand" href="https://tayyabiziz-8.github.io/portfolio-2025/">Portfolio</a>
+            <a class="navbar-brand icon-font" href="https://tayyabiziz-8.github.io/portfolio-2025/"> <span style="font-style: italic; font-weight: bold;">TIA</span> </a>
+            <hr>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <hr>
                     <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <hr>
                     <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <hr>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -30,7 +35,7 @@
         <div class="row">
             <!-- Sidebar Toggle Button for Mobile -->
             <button class="btn btn-dark d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#sidebar">
-                Skills
+                Skills & Interests
             </button>
             <!-- Sidebar -->
             <div id="sidebar" class="col-md-3 bg-light sidebar p-3 collapse d-md-block">
@@ -62,6 +67,13 @@
                 <div class="progress mb-3">
                     <div class="progress-bar bg-dark" style="width: 50%">React</div>
                 </div>
+                <hr>
+                <h5>Interests</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2 text-primary"><i class="fas fa-futbol"></i> Football</li>
+                    <li class="mb-2 text-danger"><i class="fas fa-table-tennis"></i> Table Tennis</li>
+                    <li class="mb-2 text-success"><i class="fas fa-book"></i> Literature</li>
+                </ul>
             </div>
             
             <!-- Main Content -->
@@ -70,9 +82,9 @@
                 <section id="home" class="text-center p-5">
                     <img src="image.jpg" alt="Profile Picture" class="rounded-circle img-fluid" style="max-width: 150px;">
                     <h1>Tayyab Irfan Aziz</h1>
-                    <p>Passionate Computer Science student with expertise in C++, Python, and Java, specializing in Android development.
-                         Built and deployed real-world applications, including a budget tracking app and a text editor.
-                          Quick learner, strong problem-solver, and eager to contribute innovative solutions in a fast-paced environment.</p>
+                    <p>Computer Science student with expertise in C++, Python, Java, and Android development.
+                        Developed and deployed real-world applications, including a budget tracker with API integrations and a Vim-inspired text editor.
+                        Passionate about problem-solving, efficient software design, and building impactful tech solutions.</p>
                 </section>
                 
                 <!-- Education Section -->
@@ -100,7 +112,7 @@
                 <section id="projects" class="container my-5">
                     <h2 class="text-center">Projects</h2>
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-4 mt-4">
                             <div class="card shadow-lg project-card">
                                 <div class="card-body">
                                     <h5 class="card-title">Chess</h5>
@@ -108,7 +120,7 @@
                                 </div>
                             </div>        
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 mt-4">
                             <div class="card shadow-lg project-card">
                                 <div class="card-body">
                                     <h5 class="card-title">BudgetRep</h5>
@@ -116,11 +128,35 @@
                                 </div>
                             </div>        
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 mt-4">
                             <div class="card shadow-lg project-card">
                                 <div class="card-body">
                                     <h5 class="card-title">Paint App</h5>
                                     <p class="card-text">MS Paint inspired editor using C++ OpenCV library.</p>
+                                </div>
+                            </div>        
+                        </div>
+                        <div class="col-md-4 mt-4">
+                            <div class="card shadow-lg project-card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Weather App</h5>
+                                    <p class="card-text">A weather forecasting app using OpenWeather API.</p>
+                                </div>
+                            </div>        
+                        </div>
+                        <div class="col-md-4 mt-4">
+                            <div class="card shadow-lg project-card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Text Editor</h5>
+                                    <p class="card-text">A Vim-inspired text editor for fast text manipulation.</p>
+                                </div>
+                            </div>        
+                        </div>
+                        <div class="col-md-4 mt-4">
+                            <div class="card shadow-lg project-card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Library/Bookstore DBMS</h5>
+                                    <p class="card-text">A database management system for libraries/bookstores.</p>
                                 </div>
                             </div>        
                         </div>

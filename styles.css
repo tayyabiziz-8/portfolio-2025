@@ -4,15 +4,30 @@ body {
     background-color: #1a1a2e;
     color: #e0e0e0;
 }
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
+
+.icon-font {
+    font-family: "Gravitas One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
 
 .navbar {
     background-color: #16213e !important;
 }
 .navbar-brand, .nav-link {
-    color: #6fbdcb !important;
+    color: #ffffff !important;
     transition: color 0.3s;
 }
 .navbar-brand:hover, .nav-link:hover {
+    color: #d8ab6f !important;
+}
+.nav-item, .nav-link  {
+    color: #6fbdcb !important;
+    transition: color 0.3s;
+}
+.navbar-item:hover, .nav-link:hover {
     color: #488be9 !important;
 }
 
