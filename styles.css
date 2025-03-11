@@ -46,6 +46,10 @@ body {
 .progress {
     background-color: #223978;
     border-radius: 10px;
+    transition: background-color 0.2s;
+}
+.progress:hover {
+    background-color: #488be9;
 }
 .progress-bar {
     transition: width 1s ease-in-out;
@@ -120,10 +124,25 @@ form {
     background-color: #051e82;
     color: white;
 }
-.text-center
+.title-hover
 {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
+.title-hover:hover
+{
+    color: #6fbdcb;
+    transition: color 0.4s;
+}
+.para
+{
+    margin-top: 30px;
+}
+.para:hover 
+{
+    font-size: large;
+    transition: font-size 1s;
+}
+
 /* Profile Image in Home Section */
 #home img {
     display: block;
