@@ -100,30 +100,42 @@ form {
     transition: background-color 0.3s ease;
 }
 
-/* Custom Button Colors */
+/* Social Buttons - Circular Style */
+.social-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* GitHub Button */
 .btn-github {
-    margin-top: 17px;
-    background-color: purple;
+    background-color: #333;
     color: white;
-    transition: background-color 0.3s;
 }
 
 .btn-github:hover {
-    background-color: #6a0dad;
-    color: white;
+    background-color: #342238;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+/* LinkedIn Button */
 .btn-linkedin {
-    margin-top: 10px;
-    background-color: rgb(76, 187, 231);
+    background-color: #0077b5;
     color: white;
-    transition: background-color 0.3s;
 }
 
 .btn-linkedin:hover {
-    background-color: #051e82;
-    color: white;
+    background-color: #005582;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 119, 181, 0.5);
 }
+
 .title-hover
 {
     margin-bottom: 25px;
