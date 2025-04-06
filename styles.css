@@ -151,6 +151,43 @@ form {
     font-size: large;
     transition: font-size 1s;
 }
+.edu-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 15px 30px rgba(0, 255, 255, 0.1);
+    transition: all 0.4s ease;
+    position: relative;
+}
+
+.edu-card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 20px 35px rgba(0, 255, 255, 0.3);
+    border: 1px solid rgba(0, 255, 255, 0.3);
+}
+
+.title-hover {
+    position: relative;
+    display: inline-block;
+}
+
+.title-hover::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0%;
+    height: 3px;
+    background-color: #0dcaf0;
+    transition: width 0.3s ease, left 0.3s ease;
+}
+
+.title-hover:hover::after {
+    width: 100%;
+    left: 0;
+}
+
 
 /* Profile Image in Home Section */
 #home img {
