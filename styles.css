@@ -26,9 +26,13 @@ body {
     color: #6fbdcb !important;
     transition: color 0.3s;
 }
-.navbar-item:hover, .nav-link:hover {
+.navbar-brand:hover {
+    color: #d8ab6f !important;
+}
+.nav-link:hover {
     color: #488be9 !important;
 }
+
 
 .sidebar {
     background-color: #d8ab6f;
@@ -132,16 +136,6 @@ form {
     transform: scale(1.1);
     box-shadow: 0 0 10px rgba(0, 119, 181, 0.5);
 }
-
-.title-hover
-{
-    margin-bottom: 25px;
-}
-.title-hover:hover
-{
-    color: #6fbdcb;
-    transition: color 0.4s;
-}
 .para
 {
     margin-top: 30px;
@@ -169,7 +163,7 @@ form {
 
 .title-hover {
     position: relative;
-    display: inline-block;
+    margin-bottom: 25px;
 }
 
 .title-hover::after {
@@ -182,7 +176,11 @@ form {
     background-color: #0dcaf0;
     transition: width 0.3s ease, left 0.3s ease;
 }
-
+.title-hover:hover
+{
+    color: #6fbdcb;
+    transition: color 0.4s;
+}
 .title-hover:hover::after {
     width: 100%;
     left: 0;
@@ -211,4 +209,3 @@ form {
         text-align: center;
     }
 }
- 
